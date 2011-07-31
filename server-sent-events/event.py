@@ -48,7 +48,7 @@ class EventSourceHandler(tornado.web.RequestHandler):
 
 
 def send_periodic_message():
-    rand = random.choice([0, 1, 2])
+    rand = random.choice([0, 1, 2, 3])
     if rand == 0:
         event_type = None
         data = {
@@ -62,6 +62,13 @@ def send_periodic_message():
                  "msg"     : "You should check your inbox",
                  "location": "Boston",
                  }
+    elif rand == 2:
+        event_type = "forward"
+        data = {"from"    : "roland",
+                "through" : "Sasha",
+                "msg"     : "watch this! http://youtu.be/LybAHotsvOg",
+                "location": "Mexico",
+                }
     else:
         event_type = "checkin"
         data = { "from": "Peter",

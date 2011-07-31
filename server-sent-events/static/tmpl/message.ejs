@@ -1,0 +1,14 @@
+<div class="msg">
+  <b>☺<a href="#<%= data.from %>"><%= data.from %></a></b>
+  <% if (type === "forward") { %>
+     » by <a href="#<%= data.through %>"><%= data.through %></a>
+  <% } %>
+  <br />
+  <% if (data.msg) { %>
+    <%= data.msg %>
+  <% } else { %>
+    <em>currently at <%= data.place %></em>
+  <% } %>
+  <br />
+  <i>¤<%= data.location %></i>
+</div>
