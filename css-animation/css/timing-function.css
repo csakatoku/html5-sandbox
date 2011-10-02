@@ -1,0 +1,43 @@
+@-webkit-keyframes anim-top {
+  0% {
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes anim-left {
+  0% {
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@-webkit-keyframes anim-right {
+  0% {
+  }
+  100% {
+    left: 550px;
+  }
+}
+
+.snowman {
+  position: absolute;
+  top: 200px;
+  left: 600px;
+}
+
+.tween-left {
+  -webkit-animation-name: anim-left, anim-top;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-out, ease-in;
+}
+
+.tween-right {
+  -webkit-animation-name: anim-right, anim-top;
+  -webkit-animation-duration: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-out, ease-in;
+}
