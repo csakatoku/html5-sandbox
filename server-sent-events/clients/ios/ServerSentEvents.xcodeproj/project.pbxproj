@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6050BE451402AB5200D32D25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6050BE441402AB5200D32D25 /* UIKit.framework */; };
+		6050BE471402AB5200D32D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6050BE461402AB5200D32D25 /* Foundation.framework */; };
+		6050BE4D1402AB5200D32D25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6050BE4B1402AB5200D32D25 /* InfoPlist.strings */; };
+		6050BE4F1402AB5200D32D25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6050BE4E1402AB5200D32D25 /* main.m */; };
+		6050BE531402AB5200D32D25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6050BE521402AB5200D32D25 /* AppDelegate.m */; };
+		6050BE561402AB5200D32D25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6050BE551402AB5200D32D25 /* ViewController.m */; };
+		6050BE591402AB5200D32D25 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6050BE571402AB5200D32D25 /* ViewController.xib */; };
+		6050BE611402B1A600D32D25 /* EventData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6050BE601402B1A600D32D25 /* EventData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6050BE401402AB5200D32D25 /* ServerSentEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerSentEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6050BE441402AB5200D32D25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6050BE461402AB5200D32D25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6050BE4A1402AB5200D32D25 /* ServerSentEvents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerSentEvents-Info.plist"; sourceTree = "<group>"; };
+		6050BE4C1402AB5200D32D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6050BE4E1402AB5200D32D25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6050BE501402AB5200D32D25 /* ServerSentEvents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerSentEvents-Prefix.pch"; sourceTree = "<group>"; };
+		6050BE511402AB5200D32D25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6050BE521402AB5200D32D25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6050BE541402AB5200D32D25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6050BE551402AB5200D32D25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6050BE581402AB5200D32D25 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6050BE5F1402B1A600D32D25 /* EventData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventData.h; sourceTree = "<group>"; };
+		6050BE601402B1A600D32D25 /* EventData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6050BE3D1402AB5200D32D25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6050BE451402AB5200D32D25 /* UIKit.framework in Frameworks */,
+				6050BE471402AB5200D32D25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6050BE351402AB5200D32D25 = {
+			isa = PBXGroup;
+			children = (
+				6050BE481402AB5200D32D25 /* ServerSentEvents */,
+				6050BE431402AB5200D32D25 /* Frameworks */,
+				6050BE411402AB5200D32D25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6050BE411402AB5200D32D25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6050BE401402AB5200D32D25 /* ServerSentEvents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6050BE431402AB5200D32D25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6050BE441402AB5200D32D25 /* UIKit.framework */,
+				6050BE461402AB5200D32D25 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6050BE481402AB5200D32D25 /* ServerSentEvents */ = {
+			isa = PBXGroup;
+			children = (
+				6050BE511402AB5200D32D25 /* AppDelegate.h */,
+				6050BE521402AB5200D32D25 /* AppDelegate.m */,
+				6050BE541402AB5200D32D25 /* ViewController.h */,
+				6050BE551402AB5200D32D25 /* ViewController.m */,
+				6050BE571402AB5200D32D25 /* ViewController.xib */,
+				6050BE5F1402B1A600D32D25 /* EventData.h */,
+				6050BE601402B1A600D32D25 /* EventData.m */,
+				6050BE491402AB5200D32D25 /* Supporting Files */,
+			);
+			path = ServerSentEvents;
+			sourceTree = "<group>";
+		};
+		6050BE491402AB5200D32D25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6050BE4A1402AB5200D32D25 /* ServerSentEvents-Info.plist */,
+				6050BE4B1402AB5200D32D25 /* InfoPlist.strings */,
+				6050BE4E1402AB5200D32D25 /* main.m */,
+				6050BE501402AB5200D32D25 /* ServerSentEvents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6050BE3F1402AB5200D32D25 /* ServerSentEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6050BE5C1402AB5200D32D25 /* Build configuration list for PBXNativeTarget "ServerSentEvents" */;
+			buildPhases = (
+				6050BE3C1402AB5200D32D25 /* Sources */,
+				6050BE3D1402AB5200D32D25 /* Frameworks */,
+				6050BE3E1402AB5200D32D25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerSentEvents;
+			productName = ServerSentEvents;
+			productReference = 6050BE401402AB5200D32D25 /* ServerSentEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6050BE371402AB5200D32D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6050BE3A1402AB5200D32D25 /* Build configuration list for PBXProject "ServerSentEvents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6050BE351402AB5200D32D25;
+			productRefGroup = 6050BE411402AB5200D32D25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6050BE3F1402AB5200D32D25 /* ServerSentEvents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6050BE3E1402AB5200D32D25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6050BE4D1402AB5200D32D25 /* InfoPlist.strings in Resources */,
+				6050BE591402AB5200D32D25 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6050BE3C1402AB5200D32D25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6050BE4F1402AB5200D32D25 /* main.m in Sources */,
+				6050BE531402AB5200D32D25 /* AppDelegate.m in Sources */,
+				6050BE561402AB5200D32D25 /* ViewController.m in Sources */,
+				6050BE611402B1A600D32D25 /* EventData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6050BE4B1402AB5200D32D25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6050BE4C1402AB5200D32D25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6050BE571402AB5200D32D25 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6050BE581402AB5200D32D25 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6050BE5A1402AB5200D32D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6050BE5B1402AB5200D32D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6050BE5D1402AB5200D32D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerSentEvents/ServerSentEvents-Prefix.pch";
+				INFOPLIST_FILE = "ServerSentEvents/ServerSentEvents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6050BE5E1402AB5200D32D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerSentEvents/ServerSentEvents-Prefix.pch";
+				INFOPLIST_FILE = "ServerSentEvents/ServerSentEvents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6050BE3A1402AB5200D32D25 /* Build configuration list for PBXProject "ServerSentEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6050BE5A1402AB5200D32D25 /* Debug */,
+				6050BE5B1402AB5200D32D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6050BE5C1402AB5200D32D25 /* Build configuration list for PBXNativeTarget "ServerSentEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6050BE5D1402AB5200D32D25 /* Debug */,
+				6050BE5E1402AB5200D32D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6050BE371402AB5200D32D25 /* Project object */;
+}
